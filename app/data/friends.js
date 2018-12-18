@@ -21,7 +21,7 @@ var friends = [
 	},
 	{
 		name: "Ginger",
-		photo: "http://www.indianlink.com.au/wp-content/uploads/2014/09/generic-indian-girl.jpg",
+		photo: "https://www.irishcentral.com/uploads/article/80085/cropped_CUT_white_lady_haunting_ghost_iStock.jpg?t=1539676829",
 		scores: [3, 1, 4, 4, 2, 4, 2, 5, 5, 3]
 	}
 ];
