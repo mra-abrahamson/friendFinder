@@ -133,7 +133,7 @@
 		</div>
 		
 		<!-- Modal after survey completion -->
-		<div id="bestFriendModal" class="modal fade" role="dialog">
+		<!-- <div id="bestFriendModal" class="modal fade" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -147,6 +147,24 @@
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
+				</div>
+			</div>
+		</div> -->
+	</div>
+
+	<div id="bestFriendModal" class="modal fade" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h3 class="modal-title">Your New Best Friend</h1>
+				</div>
+				<div class="modal-body">
+					<h2 id="bestFriend"></h2>
+					<img id="bestFriendPhoto" src="#">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
@@ -169,6 +187,7 @@
 	$("#submitBtn").on("click", function(event) {
 		event.preventDefault();
 				console.log(event)
+
 		// Form validation
 		var valid = true;
 
@@ -181,6 +200,7 @@
 		}
 
 		if(valid === true) {
+			console.log('here!')
 			var newUser = {
 				name: $("#name").val().trim(),
 				photo: $("#photo").val().trim(),
@@ -202,13 +222,14 @@
 
 			// Ajax call for receiving response after POST req
 			$.post(currentURL + "/api/friends", newUser, function(data) {
+				console.log(data)
 				$("#bestFriend").text(data.name);
 				$("#bestFriendPhoto").attr("src", data.photo);
 				$("#bestFriendModal").modal("toggle");
 			});
 		} else {
 			// If a required field is missing, show alert
-			alert("Survey is incomplete!");
+			alert("Survey is not done yet!");
 		}
 	});
 </script>
