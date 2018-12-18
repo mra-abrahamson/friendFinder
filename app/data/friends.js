@@ -6,7 +6,7 @@ var friends = [
 	},
 	{
 		name: "Chastity",
-		photo: "https://goo.gl/images/https://www.wpgroups.in/wp-content/uploads/2018/09/9df7d258249699de625e89a574bc152a.jpgCDU22Q",
+		photo: "https://images.unsplash.com/photo-1535210738111-1b272cd0f6cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
 		scores: [2, 5, 4, 1, 5, 3, 3, 2, 3, 3]
 	},
 	{
