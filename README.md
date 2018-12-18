@@ -6,8 +6,8 @@ Week 7 homework 2
 
 Friend Finder App.  Find your TRUE friend.
 
-## Live Link
- - 
+## Live Link 
+ - (https://finderoffriend.herokuapp.com/)
 
 ## Usage
 
