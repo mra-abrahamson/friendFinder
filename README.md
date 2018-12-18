@@ -11,7 +11,7 @@ Friend Finder App.  Find your TRUE friend.
 
 ## Usage
 
-![website screenshot](https://cloud.githubusercontent.com/assets/21274043/25552473/a3ceca2c-2c4f-11e7-8a2b-223dd9afd040.png)
+![website screenshot](https://github.com/mra-abrahamson/friendFinder/blob/master/mysocialnetwork.PNG)
 
 Go to our homepage and take our survey. After submitting the survey, your TRUE friend will appear. 
 
