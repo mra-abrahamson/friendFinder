@@ -1,0 +1,33 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.1",
+  "description": "Week 7 Homework 2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mra-abrahamson/friendFinder.git"
+  },
+  "author": "Matthew Abrahamson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mra-abrahamson/friendFinder/issues"
+  },
+  "homepage": "https://github.com/mra-abrahamson/friendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Finder",
+    "Friends"
+  ],
+  "engines": {
+    "node": "10.14.2"
+  }
+}
